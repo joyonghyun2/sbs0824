@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>가상요소 라바메뉴</title>
+    <style>
+        p { 
+            width: 300px;
+            height: 400px;
+            padding: 15px;
+            border: 1px solid black;
+        }
+
+        p:before { 
+            content: "";
+            display: block;
+            width: 150px;
+            height: 30px;
+            background: red;
+        }
+
+        p:after { 
+            content: "";
+            display: block;
+            width: 200px;
+            height: 25px;
+            background: blue;
+        }
+
+
+
+    </style>
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam quis deleniti labore, amet laudantium expedita maxime unde recusandae esse veritatis harum deserunt doloremque sapiente atque id. Facilis iure minus eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iste repudiandae laudantium corporis, velit assumenda ex maxime magnam officia. Autem hic esse provident commodi reiciendis? Autem saepe consectetur recusandae enim!</p>
+
+
+    </body>
+</html>
